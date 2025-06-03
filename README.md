@@ -4,6 +4,9 @@
 
 This project contains a Python function that determines how packages should be dispatched by a robotic arm in Thoughtful’s automation factory based on their **volume** and **mass**.
 
+Below is the Repl link for more reference: 
+https://replit.com/join/ntocuagmyx-einzigartiger3
+
 ## 🚀 Objective
 
 Sort packages into appropriate categories:
@@ -28,9 +31,3 @@ A package is considered:
 | Yes   | No     | SPECIAL        |
 | No    | Yes    | SPECIAL        |
 | Yes   | Yes    | REJECTED       |
-
-## 📄 Function Definition
-
-```python
-def sort(width, height, length, mass) -> str:
-    # Returns: "STANDARD", "SPECIAL", or "REJECTED"
